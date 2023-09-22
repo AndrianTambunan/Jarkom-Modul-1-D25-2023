@@ -119,12 +119,12 @@ Private IP address yaitu
 - 172.16.0.0 sampai dengan 172.31.255.255
 - 192.168.0.0 sampai dengan 192.168.255.255
 
-Untuk mencari public IP maka dengan mencari IP address yang tidak merupakan private IP dengan menggunakan salah satu sisi source atau destination address. Maka display filter `ip.src != 192.168.0.0/16 && ip.src != 172.16.0.0/12 && ip.src != 10.0.0.0/8`. Pada bagian source address hanya ada 1 yaitu 74.53.140.153. 
+Untuk mencari public IP maka dengan mencari IP address yang tidak merupakan private IP dengan menggunakan kedua sisi source dan destination address. Maka display filter `ip.src != 192.168.0.0/16 && ip.src != 172.16.0.0/12 && ip.src != 10.0.0.0/8` dan `ip.dst != 192.168.0.0/16 && ip.dst != 172.16.0.0/12 && ip.dst != 10.0.0.0/8`. Pada bagian source dan destination address hanya ada 1 yaitu 74.53.140.153. 
 
 Pada 172.16.0.0/12 untuk membuat range IP address antara 172.16.0.0 sampai dengan 172.31.255.255. Pada bagian oktet pertama sebanyak 8 bit dan bagian oktet kedua hanya setengahnya sebanyak 4 bit karena 16 dari 32. Jumlahnya adalah 12 bit 
 
 ![alt text](https://github.com/Sandhika21/Jaringan-Komputer-D/blob/main/Praktikum1/Soal%205/5c.png)
-
+![alt text](https://github.com/Sandhika21/Jaringan-Komputer-D/blob/main/Praktikum1/Soal%205/5a.2.png)
 ---
 
 ## Soal 6
