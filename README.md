@@ -7,16 +7,15 @@
 
 ### Daftar Isi
 - [Soal 1](#soal-1)
-- [User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.](#user-melakukan-berbagai-aktivitas-dengan-menggunakan-protokol-ftp-salah-satunya-adalah-mengunggah-suatu-file)
-- [](#)
-- [](#-1)
 - [Soal 2](#soal-2)
-- [](#-2)
 - [Soal 3](#soal-3)
-- [Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:](#dapin-sedang-belajar-analisis-jaringan-bantulah-dapin-untuk-mengerjakan-soal-berikut)
 - [Soal 4](#soal-4)
 - [Soal 5](#soal-5)
+- [Soal 6](#soal-6)
+- [Soal 7](#soal-7)
+- [Soal 8](#soal-8)
 - [Soal 9](#soal-9)
+- [Soal 10](#soal-10)
 
 ## Soal 1
 User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
