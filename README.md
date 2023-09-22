@@ -171,15 +171,15 @@ Untuk menyelesaikan soal dengan menggabungkan keduanya dengan logical operator &
 
 ## Soal 10
 Kredensial yang benar ketika user mencoba menggunakan Telnet
-
----
 Untuk mencari tahu bagaimana kredensial yang benar ketika menggunakan Telnet adalah seperti berikut
 
 ---
 ![4](https://github.com/AndrianTambunan/Jarkom-Modul-1-D25-2023/assets/100081922/1bcf5809-93b8-4381-9f6b-a4e4290842de)
 
+---
 Dalam file PCAP, dilakukan penyaringan untuk menemukan paket yang hanya menggunakan protokol Telnet
 ![5](https://github.com/AndrianTambunan/Jarkom-Modul-1-D25-2023/assets/100081922/815ca852-9eea-486c-80b3-65cf849852f3)
 
+---
 Didapatkan user dan pass
 ![6](https://github.com/AndrianTambunan/Jarkom-Modul-1-D25-2023/assets/100081922/ba2e04ba-9fe4-4510-adc7-308e57452a88)
