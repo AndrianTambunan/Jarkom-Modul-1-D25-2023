@@ -125,29 +125,35 @@ Pada 172.16.0.0/12 untuk membuat range IP address antara 172.16.0.0 sampai denga
 
 ![alt text](https://github.com/Sandhika21/Jaringan-Komputer-D/blob/main/Praktikum1/Soal%205/5c.png)
 ![alt text](https://github.com/Sandhika21/Jaringan-Komputer-D/blob/main/Praktikum1/Soal%205/5a.2.png)
+
 ---
 
 ## Soal 6
 
 ## Soal 7
 Berapa jumlah paket yang menuju IP 184.87.193.88?
+
 ---
 Untuk mencari jumlah packet bisa menggunakan ip.dst untuk menentukan alamat tujuan yang tepat menuju alamat 184.87.193.88
 Maka display filter `ip.dst == 184.87.193.88`
+
 ---
 ![1](https://github.com/AndrianTambunan/Jarkom-Modul-1-D25-2023/assets/100081922/6cda80f7-9dbf-45ff-be7f-686cc7fa9f3e)
 ![2](https://github.com/AndrianTambunan/Jarkom-Modul-1-D25-2023/assets/100081922/218968ed-7624-457b-a152-8dd94e6ca691)
 ## Soal 8
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
+
 ---
 Untuk mencari tahu kueri yang digunakan bisa menggunakan tcp.dstprot untuk mencari protokol yang menuju port 80
 `tcp.dstport == 80 || udp.dstport == 80`
+
 ---
 - 'tcp.dstport' == 80: Bagian ini berarti aturan ini akan mencocokkan paket-paket yang menggunakan protokol TCP (seperti HTTP) dan memiliki port tujuan 80
 - 'udp.dstport' == 80: Bagian ini berarti aturan ini juga akan mencocokkan paket-paket yang menggunakan protokol UDP dan memiliki port tujuan 80
 ---
 ![3](https://github.com/AndrianTambunan/Jarkom-Modul-1-D25-2023/assets/100081922/4fe9ad24-3b53-4389-9c46-4e87a54263f6)
 
+---
 ## Soal 9
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
@@ -165,8 +171,10 @@ Untuk menyelesaikan soal dengan menggabungkan keduanya dengan logical operator &
 
 ## Soal 10
 Kredensial yang benar ketika user mencoba menggunakan Telnet
+
 ---
 Untuk mencari tahu bagaimana kredensial yang benar ketika menggunakan Telnet adalah seperti berikut
+
 ---
 ![4](https://github.com/AndrianTambunan/Jarkom-Modul-1-D25-2023/assets/100081922/1bcf5809-93b8-4381-9f6b-a4e4290842de)
 Dalam file PCAP, dilakukan penyaringan untuk menemukan paket yang hanya menggunakan protokol Telnet
