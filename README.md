@@ -127,6 +127,12 @@ Pada 172.16.0.0/12 untuk membuat range IP address antara 172.16.0.0 sampai denga
 
 ---
 
+## Soal 6
+
+## Soal 7
+
+## Soal 8
+
 ## Soal 9
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
@@ -141,3 +147,5 @@ Untuk menyelesaikan soal dengan menggabungkan keduanya dengan logical operator &
 ![alt text](https://github.com/Sandhika21/Jaringan-Komputer-D/blob/main/Praktikum1/Soal%209.png)
 
 ---
+
+## Soal 10
